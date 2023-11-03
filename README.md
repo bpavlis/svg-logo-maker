@@ -4,7 +4,7 @@
 Created and tested a svg logo maker using npm, inquirer, fs, and jest.
 
 ## Final Screenshot
-![final screenshot](./images/unit10finalscreenshot.png)
+![final screenshot](./Images/unit10finalscreenshot.png)
 
 ## Links
 [GitHub](https://github.com/bpavlis/svg-logo-maker)
