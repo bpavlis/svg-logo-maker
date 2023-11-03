@@ -39,7 +39,6 @@ function askQuestions(){
 function renderLogo(svgFile, responses){
   let svg = "";
   svg = '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">';
-  // svg += "<g>";
   svg += `${responses.logoShape}`;
   
 
@@ -56,7 +55,6 @@ function renderLogo(svgFile, responses){
   }
 
   svg += `<text x="150" y="130" text-anchor="middle" font-size="60" fill="${responses.logoTextColor}">${responses.logoText}</text>`;
-  // svg += "</g>";
   svg += "</svg>";
 
   fs.writeFile(svgFile, svg, (err) => {

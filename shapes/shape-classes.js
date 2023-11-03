@@ -12,9 +12,6 @@ class ovrShape {
   constructor(color) {
     this.color = color;
   }
-  // makeColor(varColor){
-  //   this.color = varColor;
-  // }
 }
 
 class Circle extends ovrShape {
@@ -39,9 +36,9 @@ class Square extends ovrShape {
 }
 
 
-const test = new Circle("blue", "circle")
-const test2 = new Triangle("orange", "triangle")
-const test3 = new Square("yellow", "square")
-console.log(test,"\n", test2,"\n", test3)
+// const test = new Circle("blue", "circle")
+// const test2 = new Triangle("orange", "triangle")
+// const test3 = new Square("yellow", "square")
+// console.log(test,"\n", test2,"\n", test3)
 
 module.exports = {Circle, Triangle, Square};
